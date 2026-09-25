@@ -1,0 +1,22 @@
+@use "../../styles/variables" as v;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: v.$index-background-color;
+  color: v.$text-primary;
+}
+
+.index-text-primary {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.index-text-secondary {
+  font-family: "Space Mono", monospace;
+}
+
+.secondary {
+  color: v.$text-secondary
+}
